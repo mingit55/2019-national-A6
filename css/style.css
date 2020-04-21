@@ -134,6 +134,7 @@ hr { border: 0; height: 1px; }
 .d-block { display: block; }
 .d-inline { display: inline; }
 .d-inline-block { display: inline-block }
+.d-none { display: none; }
 
 /* postion */
 .position-relative { position: relative; }
@@ -485,7 +486,7 @@ footer {
 
 /* mobile-nav */
 .menu-icon {
-    display: inline-block;
+    /* display: inline-block; */
     width: 30px;
     height: 30px;
     position: relative;
@@ -511,6 +512,8 @@ footer {
 
 
 @media(max-width: 992px){
+    .wrap { max-width: 100%; }
+
     /* display */
     .d-sm-block { display: block; }
     .d-sm-inline { display: inline; }
