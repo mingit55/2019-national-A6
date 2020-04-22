@@ -19,10 +19,13 @@
                 </a>
                 <nav class="desktop h-100 d-flex d-sm-none">
                     <div class="nav-item">
-                        <a href="#">
+                        <a href="sub1.html">
                             <span>부산국제영화제</span>
                         </a>
-                        <div class="sub-list"><a href="#">개최개요</a><a href="#">행사안내</a></div>
+                        <div class="sub-list">
+                            <a href="sub1.html">개최개요</a>
+                            <a href="sub2.html">행사안내</a>
+                        </div>
                     </div>
                     <div class="nav-item">
                         <a href="#">
@@ -57,7 +60,30 @@
                 </label>
             </div>
             <nav class="mobile position-absolute">
-
+                <div class="nav-item has-sub-list">
+                    <a href="#">부산국제영화제</a>
+                    <div class="sub-list">
+                        <a href="sub1.html">개최개요</a>
+                        <a href="sub2.html">행사안내</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="#">출품신청</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#">상영일정</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#">상영작검색</a>
+                </div>
+                <div class="nav-item has-sub-list">
+                    <a href="#">이벤트</a>
+                    <div class="sub-list"><a href="#">영화티저 콘테스트</a><a href="#">콘테스트 참여하기</a></div>
+                </div>
+                <div class="sub-nav-item mt-2">
+                    <button class="btn btn-black mr-2">로그인</button>
+                    <button class="btn btn-border">회원가입</button>
+                </div>
             </nav>
         </div>
     </header>
@@ -67,7 +93,7 @@
         <div class="main-visual">
             <div class="image">
                 <img src="./images/slide_1.jpg" alt="슬라이드 이미지 1">
-                <div class="container position-relative h-100">
+                <div class="container position-relative h-100 d-sm-none">
                     <div class="box box-left d-flex flex-column justify-content-center pr-5">
                         <div class="fx-4 font-weight-lighter text-white">부산국제영화제</div>
                         <div class="fx-5 font-weight-bold text-white mt-1">화려한 무대의 개막!</div>
@@ -79,7 +105,7 @@
             </div>
             <div class="image">
                 <img src="./images/slide_2.jpg" alt="슬라이드 이미지 2">
-                <div class="container position-relative h-100">
+                <div class="container position-relative h-100 d-sm-none">
                     <div class="box box-left d-flex flex-column justify-content-center pr-5">
                         <div class="fx-4 font-weight-lighter text-white">아시아 최대 영화제</div>
                         <div class="fx-5 font-weight-bold text-white mt-1">부산국제영화제의 서막!</div>
@@ -91,7 +117,7 @@
             </div>
             <div class="image">
                 <img src="./images/slide_3.jpg" alt="슬라이드 이미지 3">
-                <div class="container position-relative h-100">
+                <div class="container position-relative h-100 d-sm-none">
                     <div class="box box-left d-flex flex-column justify-content-center pr-5">
                         <div class="fx-4 font-weight-lighter text-white">유명 배우와의 만남</div>
                         <div class="fx-5 font-weight-bold text-white mt-1">영화계의 꽃, 부산국제영화제</div>
@@ -102,23 +128,23 @@
                 </div>
             </div>
             <div class="container h-100 position-relative">
-                <div class="box box-right d-flex justify-content-between align-items-center flex-wrap">
-                    <div class="split-2 blank"></div>
-                    <div class="split-2 cursor-pointer text-white bg-yellowgreen p-4">
+                <div class="box box-right d-flex justify-content-between align-items-center flex-wrap w-50 w-sm-100 h-sm-auto">
+                    <div class="split-2 d-sm-none blank"></div>
+                    <div class="split-2 cursor-pointer text-white bg-yellowgreen p-4 split-sm-1 mb-sm-3">
                         <div class="fx-2 font-weight-bold">출품 신청</div>
                         <div class="mt-2 fx-n2">
                             <p>나만의 작품을 업로드하여 화려한 무대 위로 올라오세요!</p>
                         </div>
                         <div class="custom-arrow mt-5"></div>
                     </div>
-                    <div class="split-2 cursor-pointer text-white bg-green p-4">
+                    <div class="split-2 cursor-pointer text-white bg-green p-4 split-sm-1 mb-sm-3">
                         <div class="fx-2 font-weight-bold">상영 일정</div>
                         <div class="mt-2 fx-n2">
                             <p>모든 작품의 상영 일정을 한 눈에 확인해 보세요!</p>
                         </div>
                         <div class="custom-arrow mt-5"></div>
                     </div>
-                    <div class="split-2 cursor-pointer text-white bg-yellow p-4">
+                    <div class="split-2 cursor-pointer text-white bg-yellow p-4 split-sm-1">
                         <div class="fx-2 font-weight-bold">상영작 검색</div>
                         <div class="mt-2 fx-n2">
                             <p>원하는 조건에 맞는 작품을 찾아보세요!</p>
@@ -133,10 +159,10 @@
         <div class="biff-2019">
             <div class="container padding">
                 <div class="d-flex justify-content-center">
-                    <div class="split-2 mr-5">
+                    <div class="split-2 mr-5 d-sm-none">
                         <img class="float-right" src="./images/biff2019/img_1.jpg" alt="BIFF 2019" width="350">
                     </div>
-                    <div class="split-2">
+                    <div class="split-2 split-sm-1">
                         <div class="float-left">
                             <div class="fx-4 text-bluegreen font-weight-bold">BIFF 2019</div>
                             <p class="mt-4 text-black fx-n1">전 세계적인 네트워크를 바탕으로 영화계의 유력한 지위를 확보하고 있는 부산국제영화제는 세계 속에 한국영화뿐만 아니라 한국을 알리는 '국가 대표 브랜드'입니다.</p>
@@ -178,22 +204,22 @@
         <!-- /BIFF 2019 -->
         <!-- BIFF NEWS -->
         <div class="biff-news">
-            <div class="d-flex align-items-center">
-                <div class="w-50">
+            <div class="d-flex flex-wrap align-items-center">
+                <div class="split-2 split-sm-1 order-sm-1 mt-sm-5 px-sm-4">
                     <div class="float-right text-right">
                         <div class="fx-4 text-yellow font-weight-bold">BIFF NEWS</div>
                         <p class="mt-2 text-black fx-n1">부산국제영화제의 생생한 소식 및 정보를 담았습니다.</p>
                     </div>
                 </div>
-                <div class="w-50 pl-5">
+                <div class="split-2 split-sm-1 pl-5">
                     <div class="line bg-yellow">
                         <div class="line-circle left bg-yellow"></div>
                     </div>
                 </div>
             </div>
-            <div class="container padding">
-                <div class="d-flex justify-content-between">
-                    <div class="item-wrap split-4">
+            <div class="container padding px-sm-0">
+                <div class="d-flex flex-wrap justify-content-between">
+                    <div class="item-wrap split-4 split-sm-1">
                         <img src="./images/news/image_1.jpg" alt="news-image" class="cover-image">
                         <div class="item d-flex justify-content-center align-items-center">
                             <div class="w-100 px-2">
@@ -203,7 +229,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap split-4">
+                    <div class="item-wrap split-4 split-sm-1">
                         <img src="./images/news/image_2.jpg" alt="news-image" class="cover-image">
                         <div class="item d-flex justify-content-center align-items-center">
                             <div class="w-100 px-2">
@@ -213,7 +239,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap split-4">
+                    <div class="item-wrap split-4 split-sm-1">
                         <img src="./images/news/image_3.jpg" alt="news-image" class="cover-image">
                         <div class="item d-flex justify-content-center align-items-center">
                             <div class="w-100 px-2">
@@ -223,7 +249,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item-wrap split-4">
+                    <div class="item-wrap split-4 split-sm-1">
                         <img src="./images/news/image_4.jpg" alt="news-image" class="cover-image">
                         <div class="item d-flex justify-content-center align-items-center">
                             <div class="w-100 px-2">
@@ -239,13 +265,13 @@
         <!-- /BIFF NEWS -->
         <!-- RED CARPET -->
         <div class="red-carpet">
-            <div class="d-flex align-items-center">
-                <div class="w-50 pr-5">
+            <div class="d-flex flex-wrap align-items-center">
+                <div class="w-50 w-sm-100 pr-5">
                     <div class="line bg-orange">
                         <div class="line-circle right bg-orange"></div>
                     </div>
                 </div>
-                <div class="w-50">
+                <div class="w-50 w-sm-100 mt-sm-5 px-sm-4">
                     <div class="float-left text-left">
                         <div class="fx-4 text-orange font-weight-bold">RED CARPET</div>
                         <p class="mt-2 text-black fx-n1">부산국제영화제에 참여하는 주요 게스트를 소개합니다.</p>
@@ -254,14 +280,14 @@
             </div>
             <div class="container padding">
                 <div class="d-flex flex-wrap justify-content-between">
-                    <div class="overflow-hidden split-4 hx-250"><img src="./images/redcarpet/1.png" alt="red-carpet" class="cover-image hover-zoom"></div>
-                    <div class="overflow-hidden split-4 hx-250"><img src="./images/redcarpet/2.png" alt="red-carpet" class="cover-image hover-zoom"></div>
-                    <div class="overflow-hidden split-4 hx-250"><img src="./images/redcarpet/3.png" alt="red-carpet" class="cover-image hover-zoom"></div>
-                    <div class="overflow-hidden split-4 hx-250"><img src="./images/redcarpet/4.png" alt="red-carpet" class="cover-image hover-zoom"></div>
-                    <div class="overflow-hidden split-4 mt-2 hx-250"><img src="./images/redcarpet/5.png" alt="red-carpet" class="cover-image hover-zoom"></div>
-                    <div class="overflow-hidden split-4 mt-2 hx-250"><img src="./images/redcarpet/6.png" alt="red-carpet" class="cover-image hover-zoom"></div>
-                    <div class="overflow-hidden split-4 mt-2 hx-250"><img src="./images/redcarpet/7.png" alt="red-carpet" class="cover-image hover-zoom"></div>
-                    <div class="overflow-hidden split-4 mt-2 hx-250"><img src="./images/redcarpet/8.png" alt="red-carpet" class="cover-image hover-zoom"></div>
+                    <div class="overflow-hidden split-4 split-sm-2 hx-250"><img src="./images/redcarpet/1.png" alt="red-carpet" class="cover-image hover-zoom"></div>
+                    <div class="overflow-hidden split-4 split-sm-2 hx-250"><img src="./images/redcarpet/2.png" alt="red-carpet" class="cover-image hover-zoom"></div>
+                    <div class="overflow-hidden split-4 split-sm-2 mt-sm-3 hx-250"><img src="./images/redcarpet/3.png" alt="red-carpet" class="cover-image hover-zoom"></div>
+                    <div class="overflow-hidden split-4 split-sm-2 mt-sm-3 hx-250"><img src="./images/redcarpet/4.png" alt="red-carpet" class="cover-image hover-zoom"></div>
+                    <div class="overflow-hidden split-4 split-sm-2 mt-2 mt-sm-3 hx-250"><img src="./images/redcarpet/5.png" alt="red-carpet" class="cover-image hover-zoom"></div>
+                    <div class="overflow-hidden split-4 split-sm-2 mt-2 mt-sm-3 hx-250"><img src="./images/redcarpet/6.png" alt="red-carpet" class="cover-image hover-zoom"></div>
+                    <div class="overflow-hidden split-4 split-sm-2 mt-2 mt-sm-3 hx-250"><img src="./images/redcarpet/7.png" alt="red-carpet" class="cover-image hover-zoom"></div>
+                    <div class="overflow-hidden split-4 split-sm-2 mt-2 mt-sm-3 hx-250"><img src="./images/redcarpet/8.png" alt="red-carpet" class="cover-image hover-zoom"></div>
                 </div>
             </div>
         </div>
@@ -269,21 +295,21 @@
     </div>
     <!-- FOOTER -->
     <footer>
-        <div class="container py-5">
-            <div class="d-flex justify-content-center pb-3">
-                <a href="#" class="mx-4 text-palewhite hover-opacity">BIFF 2019</a>
-                <a href="#" class="mx-4 text-palewhite hover-opacity">출품신청</a>
-                <a href="#" class="mx-4 text-palewhite hover-opacity">상영일정</a>
-                <a href="#" class="mx-4 text-palewhite hover-opacity">상영작검색</a>
-                <a href="#" class="mx-4 text-palewhite hover-opacity">이벤트</a>
+        <div class="container py-5 px-sm-3">
+            <div class="d-flex justify-content-center justify-content-sm-between pb-3 px-sm-3">
+                <a href="#" class="mx-4 mx-sm-0 text-palewhite hover-opacity">BIFF 2019</a>
+                <a href="#" class="mx-4 mx-sm-0 text-palewhite hover-opacity">출품신청</a>
+                <a href="#" class="mx-4 mx-sm-0 text-palewhite hover-opacity">상영일정</a>
+                <a href="#" class="mx-4 mx-sm-0 text-palewhite hover-opacity">상영작검색</a>
+                <a href="#" class="mx-4 mx-sm-0 text-palewhite hover-opacity">이벤트</a>
             </div>
             <div class="d-flex justify-content-center text-palewhite mt-5">
                 <i class="fab mx-3 fa-2x fa-facebook-f"></i>
                 <i class="fab mx-3 fa-2x fa-twitter"></i>
                 <i class="fab mx-3 fa-2x fa-instagram"></i>
             </div>
-            <div class="text-center text-palewhite fx-n3 mt-4">부산사무국(48058) 부산시 해운대구 수영강변대로 120 영화의전당 비프힐 3층</div>
-            <div class="text-center text-palewhite fx-n3 mt-1">ⓒ Busan International Film Festival</div>
+            <p class="text-center text-palewhite fx-n3 mt-4 px-sm-4">부산사무국(48058) 부산시 해운대구 수영강변대로 120 영화의전당 비프힐 3층</p>
+            <div class="text-center text-palewhite fx-n3 mt-1 mt-sm-3">ⓒ Busan International Film Festival</div>
         </div>
     </footer>
     <!-- /FOOTER -->
